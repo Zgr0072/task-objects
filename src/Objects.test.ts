@@ -112,7 +112,7 @@ describe('Работа с объектами', () => {
             const result = objectClone(
                 {
                     value: true,
-                    obj,
+                    obj: obj,
                 },
                 3,
             );
